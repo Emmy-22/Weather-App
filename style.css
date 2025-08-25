@@ -5,9 +5,9 @@
 }
 body {
   margin: auto;
-  width: 50vw;
+  width: 40vw;
   height: 50%;
-  margin-top: 30%;
+  margin-top: 10%;
   background-color: #f5f5f5;
   color: #222;
   transition: all 0.3s ease;
@@ -43,21 +43,21 @@ h1 {
   background: none;
   border: none;
   border-radius: 10px;
+  margin-right: 10px;
 }
 #result {
   margin-top: 20px;
   font-size: 20px;
   text-align: left;
+ margin-left: 10%;
 }
 #toggle-theme {
   margin-left: 90%;
 }
 @media (max-width: 786px) {
   body {
-  
+  margin-top: 30%;
   width: 80vw;
-  
-  
 }
   .input {
   display: flex;
